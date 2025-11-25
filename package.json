@@ -1,0 +1,22 @@
+{
+  "name": "ai-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "text-summarizer.js",
+  "type": "module",
+  "scripts": {
+    "test": "node -e \"console.log('No tests configured')\"",
+    "start": "node",
+    "dev": "nodemon "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
